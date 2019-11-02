@@ -1,5 +1,5 @@
 #php ใช้ version 7.3 สามารถเปลี่ยนได้ตามที่เราต้องการแต่ต้องเป็นตัว fpm นะครับ เพื่อที่จะให้กับ nginx
-FROM php:7.3-fpm 
+FROM php:7.2-fpm 
 
 #Install คำสั่งสำหรับการลง package ที่ laravel required ไว้นะครับ
 RUN apt-get update \
